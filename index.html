@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Gesture Filter Camera</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/addons/p5.dom.min.js"></script>
+    <!-- 再加载 ml5.js (最新版本) -->
+    <script src="https://cdn.jsdelivr.net/npm/ml5@0.12.2/dist/ml5.min.js"></script>
+    <!-- 最后加载你的脚本 -->
+    <script src="sketch.js"></script>
+
+
+    <style>
+      body {
+        margin: 0;
+        background: black;
+        color: white;
+        font-family: sans-serif;
+        text-align: center;
+      }
+      canvas {
+        display: block;
+        margin: auto;
+        border: 2px solid white;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>🤲 Gesture Filter Camera</h2>
+    <p>Use different hand gestures to change the filter:</p>
+    <ul>
+      <li>✌️ Two fingers → Memory filter</li>
+      <li>☝️ One finger → Thermal filter</li>
+      <li>✋ Open hand → Pinkblue pixel filter</li>
+      <li>👊 Fist → Shadow filter</li>
+      <li>🚫 No hand → Original</li>
+    </ul>
+    <script src="sketch.js"></script>
+  </body>
+</html>
